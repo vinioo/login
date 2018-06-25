@@ -1,7 +1,6 @@
 <?php
 include("includes/config.php");
 
-// session_destroy();
 if (isset($_SESSION['userLoggedIn'])) {
   $userLoggedIn = $_SESSION['userLoggedIn'];
 }else {
@@ -18,6 +17,5 @@ if (isset($_SESSION['userLoggedIn'])) {
   <body>
     <h4>Login efetuado!</h4>
     <a href="sair.php">Sair</a>
-
   </body>
 </html>
